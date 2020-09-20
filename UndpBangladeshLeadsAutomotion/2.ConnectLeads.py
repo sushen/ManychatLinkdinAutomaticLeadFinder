@@ -30,7 +30,7 @@ email = "sushenbiswasaga@gmail.com"
 chrome_options = Options()
 chrome_options.add_argument("--user-data-dir=chrome-data")
 chrome_options.add_argument("--start-maximized")
-driver = webdriver.Chrome("K:\Project\Python\LeadsAutomotionInLinkdIn\chromedriver.exe",chrome_options=chrome_options)
+driver = webdriver.Chrome("../chromedriver.exe",chrome_options=chrome_options)
 chrome_options.add_argument("user-data-dir=chrome-data")
 driver.implicitly_wait(15)  # seconds
 # What will be searched

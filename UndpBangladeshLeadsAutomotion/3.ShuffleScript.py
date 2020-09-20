@@ -19,7 +19,7 @@ from selenium.webdriver.chrome.options import Options
 chrome_options = Options()
 chrome_options.add_argument("--user-data-dir=chrome-data")
 chrome_options.add_argument("--start-maximized")
-driver = webdriver.Chrome("K:\Project\Python\LeadsAutomotionInLinkdIn\chromedriver.exe",chrome_options=chrome_options)
+driver = webdriver.Chrome("../chromedriver.exe",chrome_options=chrome_options)
 chrome_options.add_argument("user-data-dir=chrome-data")
 driver.implicitly_wait(25)  # seconds
 # What will be searched
@@ -52,8 +52,7 @@ except:
 
 # No 2 : Change
 # #Replace this with the link of your list
-url = "https://www.linkedin.com/sales/lists/people/6709634433944813568?sortCriteria=CREATED_TIME"
-
+url = "https://www.linkedin.com/sales/lists/people/6710357981692780544?sortCriteria=CREATED_TIME"
 driver.get(url)
 time.sleep(waiting_for_page)
 
@@ -98,7 +97,7 @@ for i in range(pages):
         #---------------------------------------------------------------------------------
 
         # List from where you wanna remove users - MAIN LIST
-        list_to_remove = "Bitcoin"
+        list_to_remove = "it farm"
 
 
 
@@ -106,7 +105,7 @@ for i in range(pages):
         #--------------------------------------
 
         #List to add removed users
-        list_to_add = "UNDP Pending Member"
+        list_to_add = "IT Farm Pending Connection"
 
         #-------------------------------------------
 
@@ -125,7 +124,7 @@ for i in range(pages):
 
         #NO CONNECT AND NO PENDING
         #------------------------------------------
-        list_to = "UNDP Connection"
+        list_to = "IT Farm Connection"
 
         #-------------------------------------------------------------------------------------
 
