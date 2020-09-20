@@ -55,7 +55,7 @@ except:
     pass
 
 # No 2 : Change
-# #Replace this with the link of your list
+# #Replace this with the link of  your list
 url = "https://www.linkedin.com/sales/lists/people/6710357981692780544?sortCriteria=CREATED_TIME"
 
 driver.get(url)
