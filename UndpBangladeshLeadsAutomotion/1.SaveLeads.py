@@ -98,7 +98,7 @@ def main_program():
                                 nm = ls.text
                             # No 3 : Change
                             # You have to change this name for your desired list
-                            if "UNDP" == nm:
+                            if "it farm" == nm:
 
                                 ls.click()
 
@@ -144,7 +144,7 @@ driver.implicitly_wait(25)  # seconds
 
 # No 1 : Change
 # What will be searched
-search_parameter = "undp"
+search_parameter = "it"
 
 # Time waiting for page
 waiting_for_page = 5

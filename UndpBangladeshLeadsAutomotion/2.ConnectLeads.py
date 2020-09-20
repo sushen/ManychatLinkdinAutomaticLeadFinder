@@ -19,9 +19,9 @@ from selenium.webdriver.chrome.options import Options
 # No 1 : Change
 # Message to send when connecting
 message_to_connect = [
-    "Hello Sir, \nI am serving International Organization for more than three years.\nOur company work in Unicef Somalia (Nairobi based) as a BI(Business Intelligence) Consultant. If you accept my invitation I will be a very glade.",
-    "Hello Sir, \nI am working with UNDP base organization for more than three years.\nOur company work in Unicef Somalia (Nairobi based) as a BI(Business Intelligence) Consultant. If you accept my invitation I will be a very glade.",
-    "Hello Sir, \nI am serving International Diplomate  for more than three years.my office is in Gulshan 2 near the Unicef hartal office.\nOur company work in Unicef Somalia (Nairobi based) as a BI(Business Intelligence) Consultant. If you accept my invitation I will be a very glade."
+    "আমি আপনার সাথে যোগাযোগ করতে চাই ।ব্যাবসা নিয়ে কথা বলব ।",
+    "যোগাযোগ করতে চাই । ব্যাবসা নিয়ে কথা বলব ।",
+    "ব্যাবসা নিয়ে কথা বলব । যোগাযোগ করতে চাই ।  "
 ]
 
 email = "sushenbiswasaga@gmail.com"
@@ -56,7 +56,7 @@ except:
 
 # No 2 : Change
 # #Replace this with the link of your list
-url = "https://www.linkedin.com/sales/lists/people/6709634433944813568?sortCriteria=CREATED_TIME"
+url = "https://www.linkedin.com/sales/lists/people/6710357981692780544?sortCriteria=CREATED_TIME"
 
 driver.get(url)
 time.sleep(waiting_for_page)
