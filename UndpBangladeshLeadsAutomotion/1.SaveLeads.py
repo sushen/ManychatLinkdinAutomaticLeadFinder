@@ -64,7 +64,7 @@ def main_program():
     # TODO: Lets Make a funcation for that and CAll That Funcation
     for i in range(pages):
 
-        # Go trough  the page users and check if they can be messaged
+        # Go trough the page users and check if they can be messaged
         all_people_in_page = driver.find_elements_by_class_name("pv5")
 
         aux_count = 0
